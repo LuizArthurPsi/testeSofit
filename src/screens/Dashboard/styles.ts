@@ -64,3 +64,17 @@ export const Icon = styled(Feather)`
   font-size: ${RFValue(20)}px;
   color: ${({ theme }) => theme.colors.attention};
 `;
+
+export const Transactions = styled.View`
+  flex: 1%;
+
+  padding: 0 24px;
+
+  margin-top: ${RFPercentage(12)}px;
+`;
+
+export const Title = styled.Text`
+  font-size: ${RFValue(18)}px;
+
+  margin-bottom: 16px;
+`;

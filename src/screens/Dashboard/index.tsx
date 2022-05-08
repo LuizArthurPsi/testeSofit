@@ -1,5 +1,6 @@
 import React from 'react';
 import HighlightCard from '../../components/HightlightCard';
+import { TransactionCard } from '../../components/TransactionCard';
 
 import {
   Container,
@@ -11,6 +12,8 @@ import {
   UserGreetings,
   UserName,
   Icon,
+  Transactions,
+  Title,
 } from './styles';
 
 export default function Dashboard() {
@@ -33,6 +36,10 @@ export default function Dashboard() {
         </UserWrapper>
       </Header>
       <HighlightCard />
+      <Transactions>
+        <Title>Listagem</Title>
+        <TransactionCard />
+      </Transactions>
     </Container>
   );
 }
