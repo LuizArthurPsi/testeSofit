@@ -28,7 +28,7 @@ export const Title = styled.Text`
 `;
 
 export const Icon = styled(Feather)`
-  font-size: ${RFValue(40)}px;
+  font-size: ${RFValue(30)}px;
 `;
 
 export const Footer = styled.View``;
@@ -38,7 +38,7 @@ export const Amount = styled.Text`
 
   color: ${({ theme }) => theme.colors.text_dark};
 
-  margin-top: 38px;
+  margin-top: 26px;
 `;
 export const LastSpending = styled.Text`
   font-size: ${RFValue(12)}px;

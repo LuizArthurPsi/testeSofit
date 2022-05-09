@@ -1,7 +1,9 @@
 import React from 'react';
+import { ButtonIcon } from '../ButtonIcon';
 
 import {
   Container,
+  Header,
   Title,
   Amount,
   Footer,
@@ -25,8 +27,10 @@ interface Props {
 export function TransactionCard({ data }: Props) {
   return (
     <Container>
-      <Title>{data.item}</Title>
-
+      <Header>
+        <Title>{data.item}</Title>
+        <ButtonIcon />
+      </Header>
       <Amount>{data.value}</Amount>
 
       <Footer>
