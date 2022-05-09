@@ -1,4 +1,5 @@
 import React from 'react';
+import { Modal } from 'react-native';
 import HighlightCard from '../../components/HightlightCard';
 import {
   TransactionCard,
