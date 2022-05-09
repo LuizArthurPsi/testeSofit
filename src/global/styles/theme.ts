@@ -1,6 +1,7 @@
 export default {
   colors: {
     primary: '#c7d84e',
+    secondary: '#7159c1',
 
     success: '#34af23',
     attention: '#e83f5b',
